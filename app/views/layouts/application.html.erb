@@ -31,7 +31,22 @@
   <hr />
   <br class="clear"/>
 
-<%= yield %>
+<div class="container">
+  <%= yield %>
+</div>
+
+<div class="footer">
+  <div class="container">
+    <div class="col-xs-6">
+      <%= link_to "This isn't enough, I need more.", "#", class:'next-quote' %>
+    </div>
+    <div class="col-xs-6 footer-blurb">
+      Built by Mariell Datu.
+      Wanna be friends? - <a href="https://www.facebook.com/mariellchristine">Add me on here</a>
+    </div>
+  </div>
+  
+</div>
 
 </body>
 </html>
